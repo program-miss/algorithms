@@ -29,8 +29,8 @@ function binarySearch(arr, item) {
   return position;
 }
 
-console.log('count', count);
 console.log(
   'res',
   binarySearch([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 8)
 );
+console.log('count', count);
