@@ -1,7 +1,7 @@
 // let count = 0;
 
 // Сортировка выбором - находим минимальный => меняем местами с 1 => =/=
-// O(n*n)
+// O(n*n) - но по факту O (1/2 * n * n) (коэффициент 1/2 не учитывается)
 function selectionSort(arr) {
   for (let i = 0; i < arr.length; i++) {
     let indexMin = i;
