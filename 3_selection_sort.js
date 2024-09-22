@@ -1,4 +1,4 @@
-let count = 0;
+// let count = 0;
 
 // Сортировка выбором - находим минимальный => меняем местами с 1 => =/=
 // O(n*n)
@@ -9,7 +9,7 @@ function selectionSort(arr) {
       if (arr[j] < arr[indexMin]) {
         indexMin = j;
       }
-      count += 1;
+      // count += 1;
     }
 
     let tmp = arr[i];
@@ -24,4 +24,4 @@ console.log(
   'res',
   selectionSort([4, 7, -3, 6, 1, 8, 0, 3, 23, 657, 23, -6, 44])
 );
-console.log('count', count);
+// console.log('count', count);

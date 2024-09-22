@@ -1,4 +1,4 @@
-let count = 0;
+// let count = 0;
 
 // Сложность = O(log2n) (O от логарифм n по основанию 2)
 // У нас 16 элементов в массиве - O(log2 16) = 4
@@ -10,7 +10,7 @@ function binarySearch(arr, item) {
   let found = false;
   let position = -1;
   while (found === false && start <= end) {
-    count += 1;
+    // count += 1;
     middle = Math.floor((start + end) / 2);
 
     if (arr[middle] === item) {
@@ -33,4 +33,4 @@ console.log(
   'res',
   binarySearch([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 8)
 );
-console.log('count', count);
+// console.log('count', count);
