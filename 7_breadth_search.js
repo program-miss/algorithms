@@ -21,6 +21,7 @@ graph.d = ['f'];
 graph.e = ['f'];
 graph.f = ['g'];
 
+// Передвигаемся по вершинам графа и неважно, длительный путь или нет
 function breadthSearch(graph, start, end) {
   let queue = [];
   queue.push(start);
