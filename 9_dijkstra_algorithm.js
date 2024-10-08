@@ -19,7 +19,7 @@ graph.e = { f: 1 };
 graph.f = { g: 1 };
 graph.g = {};
 
-function shortPath(graph, start, end) {
+function shortPath(graph, start) {
   const costs = {}; // минимальные стоимости всех ребер (кратчайшие пути)
   const processed = []; // те узлы, которые мы уже проверили
   let neighbors = {}; // соседние вершины рассматриваемого узла
